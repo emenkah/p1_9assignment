@@ -28,3 +28,6 @@ if cmd == '4':
     plt.show()
 else:
     print "Usage: Enter '1' to use the lambda function x to populate yval"
+    print "Usage: Enter '2' to use the sin function to populate yval"
+    print "Usage: Enter '3' to use the cos function to populate yval"
+    print "Usage: Enter '4' to use the tan function x to populate yval"
