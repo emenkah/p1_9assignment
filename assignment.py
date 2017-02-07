@@ -38,6 +38,14 @@ if cmd == '6':
     #print yval
     plt.plot(xval, yval)
     plt.show()
+if cmd == '7':
+    yval = np.exp(xval)
+    plt.plot(xval, yval)
+    plt.show()
+if cmd == '8':
+    yval = np.sqrt(abs(xval))
+    plt.plot(xval, yval)
+    plt.show()
 else:
     print "Usage: Enter '1' to use the lambda function x to populate yval"
     print "Usage: Enter '2' to use the lambda function x**2 to populate yval"
@@ -45,3 +53,6 @@ else:
     print "Usage: Enter '4' to use the sin function to populate yval"
     print "Usage: Enter '5' to use the cos function to populate yval"
     print "Usage: Enter '6' to use the tan function x to populate yval"
+    print "Usage: Enter '7' to use the exp  function  to populate yval"
+    print "Usage: Enter '8' to use the sqrt(abs(x)) functions  to populate yval"
+    
