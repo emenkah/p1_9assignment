@@ -9,7 +9,6 @@ xval = np.arange(-5.0, 5.0, 0.1)
 if cmd == '1':
     f = lambda x:x
     yval = f(xval)
-    print yval
     plt.plot(xval, yval)
     plt.show()
 elif cmd == '2':
@@ -28,4 +27,4 @@ if cmd == '4':
     plt.plot(xval, yval)
     plt.show()
 else:
-    print "yval will be populated by some other funtion"
+    print "Usage: Enter '1' to use the lambda function x to populate yval"
