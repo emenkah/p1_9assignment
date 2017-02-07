@@ -21,8 +21,9 @@ if cmd == '2':
 if cmd == '3':
     f = lambda x:x**3
     yval = f(xval)
-    ########print yval
     plt.plot(xval, yval)
     plt.show()
 else:
-    print "yval will be populated by some other funtion"
+    print "Usage: Enter '1' to use the lambda function x to populate yval"
+    print "Usage: Enter '2' to use the lambda function x**2 to populate yval"
+    print "Usage: Enter '3' to use the lambda function x**3 to populate yval"
